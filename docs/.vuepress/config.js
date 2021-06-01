@@ -1,6 +1,6 @@
 module.exports = {
   theme: "antdocs",
-  title: "记录我的生活",
+  title: "我的生活",
   description: "悟已往之不谏，知来者之可追。实迷途其未远，觉今是而昨非。",
   base: "/",
   head: [
@@ -17,31 +17,33 @@ module.exports = {
   themeConfig: {
     backToTop: true,
     smoothScroll: true,
+    search: true,
+    searchMaxSuggestions: 10,
     logo: "/assets/logo.png",
     nav: require("./config/nav"),
     sidebar: require("./config/sidebar"),
-    sidebarDepth: 4,
+    sidebarDepth: 1,
     lastUpdated: "上次更新",
     repo: "https://github.com/fuyi501",
     editLinks: false,
-    ads: {
-      style: 2,
-      image: "http://fww.andata.com.cn/blog/20210517154435.jpg",
-      text: "新用户福利享不停，超低价购买云服务。",
-      link: "https://www.aliyun.com/1111/new?userCode=5k1w9nti",
-      items: [
-        {
-          text: "新用户福利享不停，超低价购买云服务。",
-          image: "http://fww.andata.com.cn/blog/20210517154435.jpg",
-          link: "https://www.aliyun.com/1111/new?userCode=5k1w9nti"
-        },
-        {
-          text: "520 云上表白季！",
-          image: "http://fww.andata.com.cn/blog/20210517154148.jpg",
-          link: "https://www.aliyun.com/activity/daily/yuming&jianzhan?taskCode=jianzhan0510&recordId=null&userCode=5k1w9nti"
-        }
-      ]
-    },
+    // ads: {
+    //   style: 2,
+    //   image: "http://fww.andata.com.cn/blog/20210517154435.jpg",
+    //   text: "新用户福利享不停，超低价购买云服务。",
+    //   link: "https://www.aliyun.com/1111/new?userCode=5k1w9nti",
+    //   items: [
+    //     {
+    //       text: "新用户福利享不停，超低价购买云服务。",
+    //       image: "http://fww.andata.com.cn/blog/20210517154435.jpg",
+    //       link: "https://www.aliyun.com/1111/new?userCode=5k1w9nti"
+    //     },
+    //     {
+    //       text: "520 云上表白季！",
+    //       image: "http://fww.andata.com.cn/blog/20210517154148.jpg",
+    //       link: "https://www.aliyun.com/activity/daily/yuming&jianzhan?taskCode=jianzhan0510&recordId=null&userCode=5k1w9nti"
+    //     }
+    //   ]
+    // },
     // ads:{
     //   style: 3,
     //   title: '赞助商',

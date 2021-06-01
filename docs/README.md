@@ -3,7 +3,7 @@ home: true
 heroImage: /assets/logo.png
 actionBtn:
   text: 快速开始
-  link: /guide/
+  link: /notes/
   type: primary
   ghost: false
   size: large

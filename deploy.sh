@@ -3,6 +3,10 @@
 # abort on errors
 set -e
 
+git add .
+git commit -m 'publish:发布'
+git push origin main
+
 # build
 npm run build
 
@@ -15,9 +19,11 @@ cd docs/.vuepress/dist
 git init
 git add -A
 git commit -m 'deploy'
-
+git branch -M main
+git remote add origin git@github.com:fuyi501/fuyi501.github.io.git
+git push -f origin main
 # if you are deploying to https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
+# git push -f git@github.com:fuyi501/fuyi501.github.io.git main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
