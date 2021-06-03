@@ -5,7 +5,7 @@ set -e
 
 git add .
 git commit -m 'publish:新增 docker'
-git push origin main
+git push -f origin main
 
 # build
 npm run build
