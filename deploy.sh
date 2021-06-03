@@ -4,7 +4,7 @@
 set -e
 
 git add .
-git commit -m 'publish:发布'
+git commit -m 'publish:新增 docker'
 git push origin main
 
 # build
