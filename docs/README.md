@@ -20,7 +20,7 @@ features:
   details: 平时喜欢看看书，玩玩游戏。没事跑跑步，看看电影，聚个餐。
 - title: 奋斗不止
   details: 生命不息，奋斗不止。
-footer: MIT Licensed | Copyright © 2021 Fuwenwei | <a href="http://beian.miit.gov.cn/" target="_blank">自行填写ICP备案号</a>
+footer: MIT Licensed | Copyright © 2021 Fuwenwei | <a href="http://beian.miit.gov.cn/" target="_blank">蜀ICP备2021012622号</a>
 ---
 
 ::: warning 声明
