@@ -1,11 +1,11 @@
 module.exports = {
   // 全栈进阶
-  "/full-stack/web": require("../../full-stack/web/sidebar_web"),
-  "/full-stack/back-end": require("../../full-stack/back-end/sidebar_backend"),
+  // "/01-全栈开发/web": require("../../01-全栈开发/web/sidebar_web"),
+  // "/01-全栈开发/back-end": require("../../01-全栈开发/back-end/sidebar_backend"),
 
   // 学习笔记
-  "/notes": require("../../notes/sidebar_notes"),
+  // "/00-笔记": require("../../00-笔记/sidebar_notes"),
 
   // 常用工具
-  "/tools": require("../../tools/sidebar_tools"),
+  "/02-tools": require("../../02-tools/sidebar_tools"),
 };

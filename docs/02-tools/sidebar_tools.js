@@ -1,5 +1,5 @@
 module.exports = [
-  '/tools/',
+  '/02-tools/',
 
 ];
 
